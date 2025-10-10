@@ -1,0 +1,15 @@
+@import '~vuetify/dist/vuetify.min.css';
+@import '~@mdi/font/css/materialdesignicons.css';
+
+ul li{
+    margin-top: 20px;
+}
+
+img{
+    max-width: 100%;
+}
+
+.centerimg{
+    display: flex;
+    justify-content: center;
+}
