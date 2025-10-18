@@ -13,7 +13,7 @@
                 <ol>
                     <li v-for="(item,i) in download" :key="i" @click="item.link == 'vscode' ? mDownload():''">
                       <a v-if="item.link != 'vscode'" :href="item.link" target="_blank">{{item.title}}</a>
-                      <a v-else>{{item.title}}</a>
+                      <a v-else><u>{{item.title}}</u></a>
                     </li>
                 </ol>
             </v-col>
@@ -94,7 +94,7 @@ export default {
   methods:{
     mDownload(){
       const link = document.createElement("a");
-      link.href = this.$url+'/vscode-extensions.txt'
+      link.href = '/downloads/vscode-extensions.txt'
       link.setAttribute("download", 'vscode-extensions.txt')
       document.body.appendChild(link)
       link.click();
