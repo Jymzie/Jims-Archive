@@ -400,11 +400,8 @@ __webpack_require__.r(__webpack_exports__);
         title: 'Apache24.zip',
         link: 'https://www.apachelounge.com/download/'
       }, {
-        title: 'PHP 8.1 64-bit',
-        link: '/downloads/php-8.1.33-Win32-vs16-x64.zip'
-      }, {
-        title: 'PHP 8.1 32-bit',
-        link: '/downloads/php-8.1.33-Win32-vs16-x86.zip'
+        title: 'PHP 8.1',
+        link: 'https://drive.usercontent.google.com/download?id=1CFIiE9015ZKLMnujJ4gYN1mH-f3dqJ1e&export=download'
       }, {
         title: 'vc_redist',
         link: 'https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170'

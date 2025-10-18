@@ -44,26 +44,11 @@ var render = function () {
             _c(
               "ol",
               _vm._l(_vm.download, function (item, i) {
-                return _c(
-                  "li",
-                  {
-                    key: i,
-                    on: {
-                      click: function ($event) {
-                        item.link == "vscode" ? _vm.mDownload() : ""
-                      },
-                    },
-                  },
-                  [
-                    item.link != "vscode"
-                      ? _c(
-                          "a",
-                          { attrs: { href: item.link, target: "_blank" } },
-                          [_vm._v(_vm._s(item.title))]
-                        )
-                      : _c("a", [_c("u", [_vm._v(_vm._s(item.title))])]),
-                  ]
-                )
+                return _c("li", { key: i }, [
+                  _c("a", { attrs: { href: item.link, target: "_blank" } }, [
+                    _vm._v(_vm._s(item.title)),
+                  ]),
+                ])
               }),
               0
             ),
@@ -300,9 +285,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
-//
-//
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
   data: function data() {
@@ -312,7 +294,7 @@ __webpack_require__.r(__webpack_exports__);
         link: 'https://code.visualstudio.com/'
       }, {
         title: 'My Extensions',
-        link: 'vscode'
+        link: 'https://drive.google.com/file/d/1_MDRM83HGfufSnmUBOyzkduObJqAlokW/view?usp=sharing'
       }],
       extensions: ['Auto Close Tag', 'Auto Complete Tag', 'Auto Rename Tag', 'Comment Anchors', 'CSS Formatter', 'ES7+React/Redux/React-Native snippets', 'json', 'Laravel Blade Snippets', 'Laravel Snippets', 'Material Design Icon Intellisense', 'Material Icon Theme', 'MongoDB for VS Code', 'npm', 'Path Intellisense', 'PHP Debug', 'PHP Getters & Setters', 'PHP Intelephense', 'PHP IntelliSense', 'PHP Namespace Resolver', 'Prettier - Code formatter', 'Tailwind CSS IntelliSense', 'TypeScript Vue Plugin (Volar)', 'Vetur', 'Vue (Official)', 'Vue Peek', 'vue-format', 'vuetify-vscode']
     };

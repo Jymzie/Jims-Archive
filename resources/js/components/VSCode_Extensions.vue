@@ -11,10 +11,7 @@
             <v-col>
                 <h3>DOWNLOADS:</h3>
                 <ol>
-                    <li v-for="(item,i) in download" :key="i" @click="item.link == 'vscode' ? mDownload():''">
-                      <a v-if="item.link != 'vscode'" :href="item.link" target="_blank">{{item.title}}</a>
-                      <a v-else><u>{{item.title}}</u></a>
-                    </li>
+                    <li v-for="(item,i) in download" :key="i"><a :href="item.link" target="_blank">{{item.title}}</a></li>
                 </ol>
             </v-col>
         </v-row>
@@ -73,7 +70,7 @@ export default {
   data:()=>({
     download:[
       {title:'Visual Studio Code',link:'https://code.visualstudio.com/'},
-      {title:'My Extensions', link:'vscode'}
+      {title:'My Extensions', link:'https://drive.google.com/file/d/1_MDRM83HGfufSnmUBOyzkduObJqAlokW/view?usp=sharing'}
     ],
     extensions:[
       'Auto Close Tag', 'Auto Complete Tag', 'Auto Rename Tag', 'Comment Anchors', 'CSS Formatter', 'ES7+React/Redux/React-Native snippets',
