@@ -101,7 +101,8 @@ export default {
   data:()=>({
     download:[
       {title:'Apache24.zip',link:'https://www.apachelounge.com/download/'},
-      {title:'PHP 8.1',link:'/downloads/php_8_1.zip'},
+      {title:'PHP 8.1 64-bit',link:'/downloads/php-8.1.33-Win32-vs16-x64.zip'},
+      {title:'PHP 8.1 32-bit',link:'/downloads/php-8.1.33-Win32-vs16-x86.zip'},
       {title:'vc_redist',link:'https://learn.microsoft.com/en-us/cpp/windows/latest-supported-vc-redist?view=msvc-170'},
     ],
   }),
