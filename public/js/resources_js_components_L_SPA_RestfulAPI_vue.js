@@ -204,7 +204,7 @@ var render = function () {
                   "Go to your local website and check the result\n              "
                 ),
                 _c("div", { staticClass: "centerimg" }, [
-                  _c("img", { attrs: { src: "images/restapires.png" } }),
+                  _c("img", { attrs: { src: "images/restapires.webp" } }),
                 ]),
               ]),
             ]),

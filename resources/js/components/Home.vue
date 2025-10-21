@@ -3,7 +3,7 @@
       <div class="background mb-10">
         <!-- <div class="font1 text-center" style="font-size: 80px;">{{status_code}}</div -->
         <div class="text-center">
-            <img src="images/jlogo.jpg" style="border-radius: 10px;height: 230px"/>
+            <img src="images/jlogo.webp" style="border-radius: 10px;height: 230px"/>
         </div>
       </div>
       <div style="text-align: center;" class="font2 mb-5">

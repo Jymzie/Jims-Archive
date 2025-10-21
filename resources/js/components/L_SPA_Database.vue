@@ -124,7 +124,7 @@
 
               <li>Run your local website and check the result
                 <div class="centerimg">
-                  <img src="images/databasesamp.png"/>
+                  <img src="images/databasesamp.webp"/>
                 </div>
               </li>
             </ul>
@@ -137,20 +137,20 @@
             <ul>
               <li>If you need multiple database connection, go to <b>config/database.php</b>. In the <b>connections</b> array are the list of available database format. We currently using the existing format of mysql for our Sample DB so we need to create another mysql DB through copy/paste:
                 <div class="centerimg">
-                  <img src="images/databasemulti1.png"/>
+                  <img src="images/databasemulti1.webp"/>
                 </div>
                 
               </li>
 
               <li>After pasting it, edit the <b>connection name</b> and its <b>DB_</b> variables to make it unique:
                 <div class="centerimg">
-                  <img src="images/databasemulti2.png"/>
+                  <img src="images/databasemulti2.webp"/>
                 </div>
               </li>
 
               <li>Go to <b>.env</b>, copy/paste the existing <b>DB_</b> variables and edit it.
                 <div class="centerimg">
-                  <img src="images/databasemulti3.png"/>
+                  <img src="images/databasemulti3.webp"/>
                 </div>
               </li>
 

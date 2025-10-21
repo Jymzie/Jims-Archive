@@ -511,7 +511,7 @@ var render = function () {
               _c("li", [
                 _vm._v("Check the result\n                    "),
                 _c("div", { staticClass: "centerimg" }, [
-                  _c("img", { attrs: { src: "images/artisanserve.PNG" } }),
+                  _c("img", { attrs: { src: "images/artisanserve.webp" } }),
                 ]),
               ]),
             ]),

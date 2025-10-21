@@ -106,7 +106,7 @@
 
               <li>Go to your local website and check the result
                 <div class="centerimg">
-                  <img src="images/restapires.png"/>
+                  <img src="images/restapires.webp"/>
                 </div>
                 
               </li>

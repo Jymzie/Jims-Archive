@@ -264,7 +264,7 @@ var render = function () {
                   "Run your local website and check the result\n              "
                 ),
                 _c("div", { staticClass: "centerimg" }, [
-                  _c("img", { attrs: { src: "images/databasesamp.png" } }),
+                  _c("img", { attrs: { src: "images/databasesamp.webp" } }),
                 ]),
               ]),
             ]),
@@ -292,7 +292,7 @@ var render = function () {
                   " array are the list of available database format. We currently using the existing format of mysql for our Sample DB so we need to create another mysql DB through copy/paste:\n              "
                 ),
                 _c("div", { staticClass: "centerimg" }, [
-                  _c("img", { attrs: { src: "images/databasemulti1.png" } }),
+                  _c("img", { attrs: { src: "images/databasemulti1.webp" } }),
                 ]),
               ]),
               _vm._v(" "),
@@ -303,7 +303,7 @@ var render = function () {
                 _c("b", [_vm._v("DB_")]),
                 _vm._v(" variables to make it unique:\n              "),
                 _c("div", { staticClass: "centerimg" }, [
-                  _c("img", { attrs: { src: "images/databasemulti2.png" } }),
+                  _c("img", { attrs: { src: "images/databasemulti2.webp" } }),
                 ]),
               ]),
               _vm._v(" "),
@@ -314,7 +314,7 @@ var render = function () {
                 _c("b", [_vm._v("DB_")]),
                 _vm._v(" variables and edit it.\n              "),
                 _c("div", { staticClass: "centerimg" }, [
-                  _c("img", { attrs: { src: "images/databasemulti3.png" } }),
+                  _c("img", { attrs: { src: "images/databasemulti3.webp" } }),
                 ]),
               ]),
               _vm._v(" "),

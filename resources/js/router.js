@@ -53,12 +53,25 @@ let router = new VueRouter({
             component: () => import('./components/React_Create_Project'),
         },
         {
-            path: '/hello',
-            name: 'hello',
-            component: () => import('./components/Hello'),
+            path: '/React_Create_Project_Vite',
+            name: 'React_Create_Project_Vite',
+            component: () => import('./components/React_Create_Project_Vite'),
+        },
+        {
+            path: '/React_Database',
+            name: 'React_Database',
+            component: () => import('./components/React_Database'),
+        },
+        {
+            path: '/React_API',
+            name: 'React_API',
+            component: () => import('./components/React_API'),
         },
 
     ],
+    scrollBehavior(to, from, savedPosition) {
+        return {x:0, y:0}
+    }
 });
 
 router.beforeEach((to, from, next) =>{

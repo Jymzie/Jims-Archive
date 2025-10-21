@@ -269,7 +269,7 @@
 
               <li>Go to your local website and click the Click Here button. An error page will appear.
                 <div class="centerimg">
-                  <img src="images/errorsamp.png"/>
+                  <img src="images/errorsamp.webp"/>
                 </div>
               </li>
             </ul>

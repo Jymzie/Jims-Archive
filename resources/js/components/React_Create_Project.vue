@@ -177,7 +177,7 @@
 
                     <li>Check the result
                         <div class="centerimg">
-                            <img src="images/artisanserve.PNG"/>
+                            <img src="images/artisanserve.webp"/>
                         </div>
                     </li>
                 </ul>

@@ -62,7 +62,7 @@ var staticRenderFns = [
       _c("div", { staticClass: "text-center" }, [
         _c("img", {
           staticStyle: { "border-radius": "10px", height: "230px" },
-          attrs: { src: "images/jlogo.jpg" },
+          attrs: { src: "images/jlogo.webp" },
         }),
       ]),
     ])

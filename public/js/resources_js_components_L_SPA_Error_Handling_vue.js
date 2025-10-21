@@ -233,7 +233,7 @@ var render = function () {
                   "Go to your local website and click the Click Here button. An error page will appear.\n              "
                 ),
                 _c("div", { staticClass: "centerimg" }, [
-                  _c("img", { attrs: { src: "images/errorsamp.png" } }),
+                  _c("img", { attrs: { src: "images/errorsamp.webp" } }),
                 ]),
               ]),
             ]),
