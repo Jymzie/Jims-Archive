@@ -374,7 +374,7 @@
                     </li>
                    
                     <li>Go to the link provided by the command and check result
-                        <div>
+                        <div class="centerimg">
                             <img src="images/reactrunres.webp"/>
                         </div>
                     </li>

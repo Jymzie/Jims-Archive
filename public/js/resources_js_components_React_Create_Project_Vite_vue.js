@@ -447,7 +447,7 @@ var render = function () {
                 _vm._v(
                   "Go to the link provided by the command and check result\n                    "
                 ),
-                _c("div", [
+                _c("div", { staticClass: "centerimg" }, [
                   _c("img", { attrs: { src: "images/reactrunres.webp" } }),
                 ]),
               ]),
