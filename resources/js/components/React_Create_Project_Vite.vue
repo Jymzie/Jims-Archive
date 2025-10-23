@@ -30,14 +30,14 @@
                   
                     <li>Use this command to create <b>React Typescipt+SWC</b> and go to the project path
                         <pre class="command-line" data-prompt="C:\Apache24\htdocs>"><code class="language-bash">
-                            npm create vite@latest ProjectName
-                            cd ProjectName
+                            npm create vite@latest projectname -- --template react-swc-ts
+                            cd projectname
                         </code></pre>
                      
                     </li>
 
                     <li>Add this necessary dependencies
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             npm install
                             npm add react-router-dom lucide-react @mantine/hooks
                         </code></pre>
@@ -54,13 +54,13 @@
             <v-card-text>
                 <ul>
                     <li>Install Tailwind
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             npm install -D tailwindcss@3 postcss autoprefixer
                             npx tailwindcss init -p 
                         </code></pre>          
                     </li>
                     <li>Open the project to VSCode
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             code .
                         </code></pre>
                      
@@ -140,7 +140,7 @@
             <v-card-text>
                 <ul>
                     <li>Go back to CMD and install Express, Axios and Cors
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             npm install express axios cors
                         </code></pre>
                     </li>
@@ -361,14 +361,14 @@
                         </code></pre>
                     </li>
                     <li>Go back to CMD and install concurrently and nodemon
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             npm install --save-dev concurrently
                             npm install nodemon
                             npm install --save-dev ts-node
                         </code></pre>
                     </li>
                     <li>Deploy the project and run the back-end simultaneously
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             npm run dev
                         </code></pre>
                     </li>

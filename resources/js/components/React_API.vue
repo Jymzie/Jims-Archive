@@ -26,12 +26,12 @@
                 <ul>
                     <li>Open CMD and go to Project folder
                         <pre class="command-line" data-prompt="C:\Users\Jim>"><code class="language-bash">
-                            cd C:\Apache24\htdocs\ProjectName
+                            cd C:\Apache24\htdocs\projectname
                         </code></pre>              
                     </li>
                   
                     <li>Open the Project to VSCode
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             code .
                         </code></pre>
                      
@@ -146,6 +146,19 @@
                             export default {get_table, insert_data}; 
                         </code></pre>
                     </li>
+
+                    <li>Add this code to <b>vite.config.ts</b> under <b>plugins</b> to simplify axios url
+                        <pre><code class="language-js">
+                           server:{
+                                proxy:{
+                                    '/api':{
+                                        target:'http://localhost:8080',
+                                        changeOrigin:true
+                                    }
+                                }
+                            }
+                        </code></pre>
+                    </li>
                     
                     <li>Edit <b>src/components/pages/Home.tsx</b>
                         <pre><code class="language-js">
@@ -159,7 +172,7 @@
                                 let [content, setContent] = useState([])
 
                                 const mGetTable = () => {
-                                    axios.get('http://localhost:8080/api/sample')
+                                    axios.get('api/sample')
                                     .then((res) => {
                                         setContent(res.data)
                                     })
@@ -167,7 +180,7 @@
 
                                 const mInsertData = () => {
                                     let req = {name:name,age:age}
-                                    axios.post('http://localhost:8080/api/sample/res',req)
+                                    axios.post('api/sample/res',req)
                                     .then(() => {
                                         mGetTable()
                                     })
@@ -228,7 +241,7 @@
             <v-card-text>
                 <ul>
                     <li>Go back to CMD and deploy the project
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             npm run dev
                         </code></pre>
                     </li>

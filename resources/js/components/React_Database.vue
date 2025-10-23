@@ -52,12 +52,12 @@
                 <ul>
                     <li>Open CMD and go to Project folder
                         <pre class="command-line" data-prompt="C:\Users\Jim>"><code class="language-bash">
-                            cd C:\Apache24\htdocs\ProjectName
+                            cd C:\Apache24\htdocs\projectname
                         </code></pre>              
                     </li>
                   
                     <li>Install MongoDB and .env dependencies
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             npm install mongoose dotenv
                         </code></pre>
                      
@@ -105,7 +105,7 @@
                                 try {
                                     let conn = await mongoose.connect(uri);
                                     db = conn.connection.db
-                                    console.log(uri);
+                                    console.log('Connected to Database');
                                 } catch(error) {
                                     console.error(error);
                                 }
@@ -133,7 +133,7 @@
             <v-card-text>
                 <ul>
                     <li>Go back to CMD and deploy the project
-                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\ProjectName>"><code class="language-bash">
+                        <pre class="command-line" data-prompt="C:\Apache24\htdocs\projectname>"><code class="language-bash">
                             npm run dev
                         </code></pre>
                     </li>
@@ -158,8 +158,7 @@ export default {
     data:()=>({
         requirements:[
             {title:'MongoDB',link:'https://www.mongodb.com/try/download/community'},
-            {title:'MongoshDB Shell',link:'https://www.mongodb.com/docs/mongodb-shell/'},
-            {title:'MongoDB php extension',link:'https://pecl.php.net/package/mongodb'}
+            {title:'MongoshDB Shell',link:'https://www.mongodb.com/docs/mongodb-shell/'}
         ],
     }),
     mounted(){
